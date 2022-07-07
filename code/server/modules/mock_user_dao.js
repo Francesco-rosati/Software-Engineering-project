@@ -1,0 +1,10 @@
+exports.closeUserTable = jest.fn();
+exports.newUsersTable = jest.fn();
+exports.dropUsersTable = jest.fn();
+exports.getStoredSuppliers = jest.fn();
+exports.getStoredUsers = jest.fn();
+exports.getUserByUsernameAndType = jest.fn();
+exports.getUserByIdAndType = jest.fn();
+exports.storeUser = jest.fn();
+exports.modifyUser = jest.fn();
+exports.deleteUser = jest.fn();

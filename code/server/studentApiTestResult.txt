@@ -1,0 +1,451 @@
+Server listening at http://localhost:3001
+
+
+  test user apis
+User successfully created!
+    ✔ adding a new user (154ms)
+User successfully created!
+    ✔ adding a new user (100ms)
+User successfully created!
+    ✔ adding a new user (95ms)
+Type not allowed!
+    ✔ adding a new user (93ms)
+User successfully created!
+    ✔ adding a new user (94ms)
+User successfully created!
+    ✔ adding a new user (95ms)
+User successfully created!
+    ✔ adding a new user (97ms)
+User successfully created!
+    ✔ adding a new user (93ms)
+Attempted to create manager or administrator account!
+    ✔ adding a new user (94ms)
+User with the same type already exists!
+    ✔ adding a new user (93ms)
+Error in body!
+    ✔ adding a new user
+Data not formatted properly!
+    ✔ adding a new user
+Empty body!
+    ✔ adding a new user
+    ✔ getting all users from the user table
+    ✔ getting all suppliers from the user table
+Wrong username!
+    ✔ checking user login
+    ✔ checking user login (93ms)
+    ✔ checking user login (93ms)
+    ✔ checking user login (91ms)
+    ✔ checking user login (92ms)
+    ✔ checking user login (95ms)
+Error in body!
+    ✔ checking user login
+Error in body!
+    ✔ checking user login
+Data not formatted properly!
+    ✔ checking user login
+Empty body!
+    ✔ checking user login
+User with the same type already exists!
+    ✔ modify user
+User successfully updated!
+    ✔ modify user
+User doesn't exist or old type is wrong!
+    ✔ modify user
+User doesn't exist or old type is wrong!
+    ✔ modify user
+Error in body!
+    ✔ modify user
+Data not formatted properly!
+    ✔ modify user
+Data not formatted properly!
+    ✔ modify user
+Empty body!
+    ✔ modify user
+User successfully deleted!
+    ✔ delete a user from the db
+    ✔ getting all users from the user table
+Error in request!
+    ✔ delete a user from the db
+    ✔ getting all users from the user table
+Attempted to delete a manager or an administrator
+    ✔ delete a user from the db
+Error in request!
+    ✔ delete a user from the db
+User not found or wrong type!
+    ✔ delete a user from the db
+
+  test position apis
+Position Table is now empty!
+Generic error!
+    ✔ delete all data from the system
+    ✔ adding a new position
+    ✔ adding a new position
+    ✔ adding a new position
+    ✔ adding a new position
+Empty body!
+    ✔ adding a new position
+    ✔ getting all the positions from the system
+    ✔ modify position
+No position associated to positionID!
+    ✔ modify position
+Error in body!
+    ✔ modify position
+    ✔ change positionID
+No position associated to positionID!
+    ✔ change positionID
+Error in body!
+    ✔ change positionID
+Position successfully deleted!
+    ✔ delete a position from the system
+Error in request!
+    ✔ delete a position from the system
+
+  test sku apis
+Sku Table is now empty!
+    ✔ delete all data from the system
+Sku successfully created!
+    ✔ adding a new sku
+Sku successfully created!
+    ✔ adding a new sku
+Sku successfully created!
+    ✔ adding a new sku
+Empty body!
+    ✔ adding a new sku
+    ✔ getting sku data from the system
+    ✔ getting sku data from the system
+Error in body!
+    ✔ getting sku data from the system
+    ✔ getting all skus from the system
+Sku successfully deleted!
+    ✔ delete a sku from the system
+Error in request!
+Error in body!
+    ✔ delete a sku from the system
+Sku position successfully updated!
+    ✔ modify sku position
+Sku not existing!
+    ✔ modify sku position
+Position not existing!
+    ✔ modify sku position
+Position already occupied by another Sku!
+    ✔ modify sku position
+Sku successfully updated!
+    ✔ modify sku
+Sku not existing!
+    ✔ modify sku
+Error in body!
+    ✔ modify sku
+Position is not capable enough in weight or in volume!
+    ✔ modify sku
+
+  test item apis
+Item Table is now empty!
+    ✔ delete all data from the item table
+    ✔ getting all items from the item table
+    ✔ adding a new item
+The supplier already sells an item with the same SKUId!
+    ✔ adding a new item
+    ✔ adding a new item
+Sku not found
+    ✔ adding a new item
+    ✔ adding a new item
+Validation of request body failed!
+    ✔ adding a new item
+Validation of request body failed!
+    ✔ adding a new item
+Validation of request body failed!
+    ✔ adding a new item
+Validation of request body failed!
+    ✔ adding a new item
+    ✔ getting all items from the item table
+    ✔ getting item data from the db
+No Item associated to this id
+    ✔ getting item data from the db
+    ✔ getting item data from the db
+Validation of id failed!
+    ✔ getting item data from the db
+Item successfully updated!
+    ✔ modify item
+Validation of request body failed!
+    ✔ modify item
+Item successfully updated!
+    ✔ modify item
+Item not existing!
+    ✔ modify item
+Empty body!
+    ✔ modify item
+Data not formatted properly!
+    ✔ modify item
+Data not formatted properly!
+    ✔ modify item
+Validation of request body failed!
+    ✔ modify item
+Validation of request body failed!
+    ✔ modify item
+Item successfully deleted!
+    ✔ delete an item from the db
+    ✔ getting all items from the item table
+Validation of request body failed!
+    ✔ delete an item from the db
+Validation of request body failed!
+    ✔ delete an item from the db
+Item not found!
+    ✔ delete an item from the db
+
+  test skuitem apis
+SKUItem Table is now empty!
+    ✔ delete all data from the skuitem table
+    ✔ getting all skuitems from the skuitem table
+SKUItem successfully created
+    ✔ adding a new skuitem
+Empty body!
+    ✔ adding a new skuitem
+Invalid body request
+    ✔ adding a new skuitem
+SKU not found
+    ✔ adding a new skuitem
+RFID must be unique
+    ✔ adding a new skuitem
+SKUItem successfully created
+    ✔ adding a new skuitem
+SKUItem successfully created
+    ✔ adding a new skuitem
+Invalid body request
+    ✔ adding a new skuitem
+Empty body!
+    ✔ adding a new skuitem
+Invalid date
+    ✔ adding a new skuitem
+Invalid body request
+    ✔ adding a new skuitem
+Invalid body request
+    ✔ adding a new skuitem
+    ✔ getting all skuitems from the skuitem table
+SKUItem successfully returned
+    ✔ getting skuitem matching rfid
+SKUItem not found
+    ✔ getting skuitem matching rfid
+Invalid parameter request
+    ✔ getting skuitem matching rfid
+Invalid parameter request
+    ✔ getting skuitem matching rfid
+Invalid parameter request
+    ✔ getting skuitem matching rfid
+SKUItem successfully updated
+    ✔ modify skuitem
+SKUItem successfully updated
+    ✔ modify skuitem
+SKUItem successfully updated
+    ✔ modify skuitem
+Invalid parameter/body request
+    ✔ modify skuitem
+Invalid parameter/body request
+    ✔ modify skuitem
+Invalid parameter/body request
+    ✔ modify skuitem
+Invalid parameter/body request
+    ✔ modify skuitem
+Empty body!
+    ✔ modify skuitem
+Invalid parameter/body request
+    ✔ modify skuitem
+Invalid parameter/body request
+    ✔ modify skuitem
+Invalid date
+    ✔ modify skuitem
+SKUItem not found
+    ✔ modify skuitem
+Invalid parameter/body request
+    ✔ modify skuitem
+RFID must be unique
+    ✔ modify skuitem
+    ✔ getting available skuitems for one skuid
+Invalid parameter request
+    ✔ getting available skuitems for one skuid
+Invalid parameter request
+    ✔ getting available skuitems for one skuid
+SKU not found
+    ✔ getting available skuitems for one skuid
+SKUItem successfully returned
+    ✔ getting skuitem matching rfid
+SKUItem successfully deleted
+    ✔ delete one skuitem from the db
+    ✔ getting all skuitems from the skuitem table
+SKUItem not found
+    ✔ delete one skuitem from the db
+Invalid parameter request
+    ✔ delete one skuitem from the db
+Invalid parameter request
+    ✔ delete one skuitem from the db
+Invalid parameter request
+    ✔ delete one skuitem from the db
+
+  test testDescriptor apis
+Test Descriptor Table is now empty!
+    ✔ delete all data from the system
+Test descriptor successfully created!
+    ✔ adding a new test descriptor
+Test descriptor successfully created!
+    ✔ adding a new test descriptor
+Test descriptor successfully created!
+    ✔ adding a new test descriptor
+No sku associated to idSKU!
+    ✔ adding a new test descriptor
+Empty body!
+    ✔ adding a new test descriptor
+    ✔ getting test descriptor data from the system
+No test descriptor associated to id
+    ✔ getting test descriptor data from the system
+Validation of id failed!
+    ✔ getting test descriptor data from the system
+    ✔ getting all test descriptors from the system
+Test descriptor successfully updated!
+    ✔ modify test Descriptor
+No sku associated to newIdSku
+    ✔ modify test Descriptor
+No test descriptor associated to id
+No test descriptor associated to id
+    ✔ modify test Descriptor
+Validation of request body or of failed!
+Validation of id failed!
+    ✔ modify test Descriptor
+Test descriptor successfully deleted!
+    ✔ delete a test descriptor from the system
+Validation of id failed!
+Validation of id failed!
+    ✔ delete a test descriptor from the system
+
+  test test Result apis
+Test Result Table is now empty!
+    ✔ delete all data from the system
+Test result successfully created!
+    ✔ adding a new test result
+Test result successfully created!
+    ✔ adding a new test result
+Test result successfully created!
+    ✔ adding a new test result
+Test result successfully created!
+    ✔ adding a new test result
+No sku item associated to rfid!
+    ✔ adding a new test result
+No test descriptor associated to idTestDescriptor!
+    ✔ adding a new test result
+Empty body!
+    ✔ adding a new test result
+Validation of request body failed!
+    ✔ adding a new test result
+Validation of request body failed!
+    ✔ adding a new test result
+    ✔ getting a test result from the system
+No test result associated to id!
+    ✔ getting a test result from the system
+No sku item associated to rfid!
+    ✔ getting a test result from the system
+Validation of id or of rfid failed!
+    ✔ getting a test result from the system
+Validation of id or of rfid failed!
+    ✔ getting a test result from the system
+    ✔ getting all test results from the system
+No sku item associated to rfid!
+    ✔ getting all test results from the system
+Validation of rfid failed!
+    ✔ getting all test results from the system
+Test result successfully updated!
+    ✔ modify Test Result
+No sku item associated to rfid!
+No sku item associated to rfid!
+    ✔ modify Test Result
+No test descriptor associated to newIdTestDescriptor!
+    ✔ modify Test Result
+No test result associated to id!
+No test result associated to id!
+    ✔ modify Test Result
+Empty body!
+Validation of id or of rfid failed!
+    ✔ modify Test Result
+Validation of request body, of id or of rfid failed!
+Validation of id or of rfid failed!
+    ✔ modify Test Result
+Validation of request body, of id or of rfid failed!
+Validation of id or of rfid failed!
+    ✔ modify Test Result
+No sku item associated to rfid!
+No sku item associated to rfid!
+    ✔ delete a test result from the system
+Validation of request body failed!
+Validation of id or of rfid failed!
+    ✔ delete a test result from the system
+Validation of request body failed!
+Validation of id or of rfid failed!
+    ✔ delete a test result from the system
+
+  test Restock Orders apis
+Restock Order Table is now empty!
+    ✔ delete all data from the system
+Restock Order successfully created!
+    ✔ adding a new Restock Order
+Restock Order successfully created!
+    ✔ adding a new Restock Order
+Empty body!
+    ✔ adding a new Restock Order
+    ✔ getting Restock Orders by id data from the system
+No Restock Order associated to id: 50
+    ✔ getting Restock Orders by id data from the system
+    ✔ getting all Restock Orders from the system
+    ✔ getting all issued Orders from the system
+Restock Order successfully updated with newState!
+    ✔ modify Restock Order State by id
+Restock Order successfully updated with skuItems!
+    ✔ modify Restock Order SKUItems by id
+    ✔ getting return items of Restock Order by id
+Restock Order successfully updated with newState!
+    ✔ modify Restock Order State by id
+Restock Order successfully updated with transportNote!
+    ✔ modify Restock Order Transportnote by id
+Restock Order successfully deleted!
+    ✔ delete a Restock Order from the system
+
+  test Internal Orders apis
+Internal ORder Table is now empty!
+    ✔ delete all data from the system
+Internal Order successfully created!
+    ✔ adding a new Internal Order
+Internal Order successfully created!
+    ✔ adding a new Internal Order
+Empty body!
+    ✔ adding a new Internal Order
+    ✔ getting Internal Orders by id 
+No Internal Order associated to id: 50
+    ✔ getting Internal Orders by id 
+    ✔ getting all Internal Orders from the system
+    ✔ getting all issued Orders from the system
+Internal Order successfully updated!
+    ✔ modify Internal Order
+    ✔ getting all Accepted Internal Orders from the system
+Internal Order successfully updated!
+    ✔ modify Internal Order
+Internal Order id not found!
+No Internal Order associated to id: 6
+    ✔ modify Internal Order
+Internal Order successfully deleted!
+    ✔ delete a InternalOrder from the system
+
+  test Return Orders apis
+Return Order Table is now empty!
+    ✔ delete all data from the system
+Return Order successfully created!
+    ✔ adding a new Return Order
+Return Order successfully created!
+    ✔ adding a new Return Order
+Empty body!
+    ✔ adding a new Return Order
+No Restock Order associated to given restockOrderId:100
+    ✔ adding a new Return Order
+    ✔ getting Return Orders by id 
+    ✔ getting all Return Orders from the system
+Return Order successfully deleted!
+    ✔ delete a ReturnOrder from the system
+
+
+  228 passing (2s)
+

@@ -1,0 +1,33 @@
+----------------------------|---------|----------|---------|---------|---------------------------------
+File                        | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s               
+----------------------------|---------|----------|---------|---------|---------------------------------
+All files                   |   99.29 |    98.85 |     100 |   99.35 |                                 
+ modules                    |   98.75 |    97.92 |     100 |   98.84 |                                 
+  InternalOrderDAO.js       |     100 |      100 |     100 |     100 |                                 
+  ItemsDAO.js               |     100 |      100 |     100 |     100 |                                 
+  RestockOrderDAO.js        |     100 |      100 |     100 |     100 |                                 
+  ReturnOrderDAO.js         |     100 |      100 |     100 |     100 |                                 
+  Sku&Position.js           |      95 |    94.52 |     100 |   94.95 | 165-167,184-186,386-388,413-415 
+  TestsDAO.js               |     100 |      100 |     100 |     100 |                                 
+  UsersDAO.js               |     100 |      100 |     100 |     100 |                                 
+  dbManager.js              |   94.73 |       50 |     100 |     100 | 4                               
+  mock_InternalOrder_dao.js |     100 |      100 |     100 |     100 |                                 
+  mock_RestockOrder_dao.js  |     100 |      100 |     100 |     100 |                                 
+  mock_ReturnOrder_dao.js   |     100 |      100 |     100 |     100 |                                 
+  mock_item_dao.js          |     100 |      100 |     100 |     100 |                                 
+  mock_position_dao.js      |     100 |      100 |     100 |     100 |                                 
+  mock_sku_dao.js           |     100 |      100 |     100 |     100 |                                 
+  mock_tests_dao.js         |     100 |      100 |     100 |     100 |                                 
+  mock_user_dao.js          |     100 |      100 |     100 |     100 |                                 
+ services                   |     100 |      100 |     100 |     100 |                                 
+  InternalOrder_service.js  |     100 |      100 |     100 |     100 |                                 
+  RestockOrder_service.js   |     100 |      100 |     100 |     100 |                                 
+  ReturnOrder_service.js    |     100 |      100 |     100 |     100 |                                 
+  item_service.js           |     100 |      100 |     100 |     100 |                                 
+  position_service.js       |     100 |      100 |     100 |     100 |                                 
+  sku_item_service.js       |     100 |      100 |     100 |     100 |                                 
+  sku_service.js            |     100 |      100 |     100 |     100 |                                 
+  testDescriptor_service.js |     100 |      100 |     100 |     100 |                                 
+  testResult_service.js     |     100 |      100 |     100 |     100 |                                 
+  user_service.js           |     100 |      100 |     100 |     100 |                                 
+----------------------------|---------|----------|---------|---------|---------------------------------
