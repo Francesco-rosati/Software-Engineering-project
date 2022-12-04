@@ -14,9 +14,9 @@ jobs:
         with:
           fetch-depth: 0  # Shallow clones should be disabled for a better relevancy of analysis
       - name: Install dependencies
-        run: yarn
+        run: yarn --cwd ./code/server
       - name: Test and coverage
-        run: yarn --cwd ./code/server jest --coverage
+        run: yarn --cwd ./code/server test
       - name: SonarCloud Scan
         uses: SonarSource/sonarcloud-github-action@master
         env:
